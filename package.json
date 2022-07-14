@@ -1,0 +1,19 @@
+{
+  "name": "twitter-sseraphini-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8",
+    "twitter-api-sdk": "^1.0.9"
+  }
+}
