@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { Client } from 'twitter-api-sdk'
 import { insertPost } from './db.js'
 
-const client = new Client(process.env.BARER_TOKEN)
+const client = new Client(process.env.BEARER_TOKEN)
 
 async function getTweets(next){
   const tweets = await client.tweets.tweetsRecentSearch({
